@@ -2,7 +2,8 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 92px 50px 96px 50px;
+  padding: 90px 50px 96px 50px;
+  height: 293px;
 }
 
 .header__menu {
@@ -12,7 +13,7 @@
 .header__links-list {
   display: flex;
   flex-direction: row;
-  gap: 13px;
+  gap: 11px;
   list-style: circle;
   list-style-position: inside;
 }
@@ -36,8 +37,7 @@
 
 .header__logo {
   display: block;
-  width: 148px;
-  height: 105px;
+  width: 140px;
 }
 
 .header__logo-image{
@@ -65,53 +65,87 @@
 }
 
 .cover {
+  display: flex;
+  flex-direction: column;
+  height: 757px;
   background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
+  background-position: center;
 }
 
 .overlay {
-
+  background-color: rgba(0, 0, 0, 0.6); 
+  background-blend-mode: multiply;
 }
 
 .cover__title {
-
+  display: flex;
+  flex-direction: column;
+  padding: 165px 50px 106px 50px;
+  gap: 20px;
+  font-family: 'Raleway', serif;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 115%;
+  text-transform: uppercase;
+  color: #FFFFFF;
 }
 
 .aligned-text {
-
+  display: block;
 }
 
 .aligned-text_left {
-
+ text-align: left;
 }
 
 .aligned-text_center {
-
+  text-align: center;
 }
 
 .aligned-text_right {
-
+  text-align: right;
 }
 
 .letter-spacing-extended {
-
+  letter-spacing: 30px;
 }
 
 .no-letter-spacing {
-
+  letter-spacing: 0;
 }
 
 .cover__description {
-  
+  display: flex;
+  justify-content: space-between;
+  align-content: end;
+  margin: 0 50px 50px 50px;
 }
 
 .cover__description-text {
-
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  word-spacing: 18.5px;
+  text-transform: uppercase;
+  color: #FFFFFF;
 }
 
 .bet-button {
-
+  width: 256px;
+  height: 51px; 
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: transparent; 
+  border: 1px solid #FFFFFF;
+  cursor: pointer;
 }
 
 .lots {
