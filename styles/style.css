@@ -35,21 +35,21 @@
   width: 100%;
 }
 
-.header_address {
+.address {
   display: flex;
   flex-direction: column;
-  justify-self: end;
-}
-
-.address {
   max-width: 240px;
   font-size: 18px;
   font-style: normal;
   line-height: 24px;
 }
 
+.header_address {
+  justify-self: end;
+}
+
 .address_links {
-  text-underline-offset: 3px;
+  text-underline-offset: 2px;
 }
 
 .cover {
@@ -273,8 +273,6 @@
 }
 
 .footer_address {
-  display: flex;
-  flex-direction: column;
   justify-self: start;
 }
 
